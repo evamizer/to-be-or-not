@@ -1,5 +1,7 @@
 # To be.... or not?
 
+<img src="images/repository-shakes-social.jpg" alt="A portrait series of Thomas Middleton, William Shakespeare, and John Fletcher" />
+
 Welcome historians, students, admirers and fans of the theatre. For my final project in th Flatiron Data Science program, I have created a model that can be used to distinguise the identity of an author of an Elizabethan/Jacobean play between William Shakespeare, Thomas Middleton, and John Fletcher. 
 
 In this project description, we will cover:
@@ -15,7 +17,6 @@ In this project description, we will cover:
 
 Before we get started, here are some links to navigate this project:
 * [The notebook](https://github.com/evamizer/to-be-or-not)
-* [The original dataset](https://www.gbif.org/data/)
 
 ## Project Overview<a id='project-overview'></a>
 
@@ -108,13 +109,22 @@ Lastly, thank you for taking the time to read through this, and I hope it helped
  ## Repository Structure:
 
     ├── data
-        └── bee_survey.csv
+        └── chaste_maid_middleton.csv
+        └── shakespeare_data.csv
+        └── shepherdess_fletcher.csv
     ├── images
         └── emtest.jpg
+        └── frequency.png
+        └── gradio.png
         └── invents.jpg
         └── repository-shakes-social.jpg
         └── tobeornot.jpg
         └── whatdoththis.jpg
+    ├── model
+        └── nb_model.pkl
+        └── nb_word_list.pkl
+        └── new_empty_df.pkl
+        └── word2vec_model.pkl
      ├── .gitignore
      ├── README.md
      ├── to_be_or_not.pdf
