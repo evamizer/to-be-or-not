@@ -16,7 +16,7 @@ In this project description, we will cover:
 *You may notice a healthy amount of memes throughout this README and the project itself. It's a mix of puns and humor, seriousness and silliness that I think Shakespeare would approve of. Enjoy.*
 
 Before we get started, here are some links to navigate this project:
-* [The notebook](https://github.com/evamizer/to-be-or-not)
+* [The notebook]("https://github.com/evamizer/to-be-or-not")
 
 ## Project Overview<a id='project-overview'></a>
 
@@ -34,16 +34,13 @@ For this project, I used exploratory data analysis, data cleaning and preparatio
 
 * Authors occasionally worked together, but their exact contributions were not always clear.
 
-
-<img src="images/tobeornot.jpg" alt="man trying to decide between pushing a 'To be' and a 'not to be' button" />
-
 ### The Datasets
 
 The data we are using is a combination of three sets of plays, one from each of three prominant playwrites of the day. 
 
-* For Shakespeare, we are using a [csv]("https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays") of all of known Shakespearean plays availabe up on Kaggle submitted by Liam Larsen. We will make a subset for the play "Much Ado About Nothing" from 1598/99.
-* For Thomas Middleton, we will be using his comedic play ["A Trick to Catch the Old One"]("https://tech.org/~cleary/tcoo.html) released in 1608.
-* For John Fletcher, we will be using his tragic comedy ["The Faithful Shepherdess"]("https://www.luminarium.org/sevenlit/fletcher/fletchbib.htm") released in 1609.
+* For Shakespeare, we are using a [csv](https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays) of all of known Shakespearean plays availabe up on Kaggle submitted by Liam Larsen. We will make a subset for the play "Much Ado About Nothing" from 1598/99.
+* For Thomas Middleton, we will be using his comedic play ["A Trick to Catch the Old One"](https://tech.org/~cleary/tcoo.html) released in 1608.
+* For John Fletcher, we will be using his tragic comedy ["The Faithful Shepherdess"](https://www.luminarium.org/sevenlit/fletcher/fletchbib.htm) released in 1609.
 
 
 #### Features Used:
