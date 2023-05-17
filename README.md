@@ -13,10 +13,8 @@ In this project description, we will cover:
 * [***Business Recommendations:***](#busrec) Recommendations based on model findings
 * [***What's Next:***](#next) What I'd like to do to improve further
 
-*You may notice a healthy amount of memes throughout this README and the project itself. It's a mix of puns and humor, seriousness and silliness that I think Shakespeare would approve of. Enjoy.*
-
-Before we get started, here are some links to navigate this project:
-* [The notebook]("https://github.com/evamizer/to-be-or-not")
+Before we get started, here is a linksto navigate this project:
+* [The notebook](https://github.com/evamizer/to-be-or-not/blob/main/to-be-or-not.ipynb)
 
 ## Project Overview<a id='project-overview'></a>
 
@@ -39,12 +37,12 @@ For this project, I used exploratory data analysis, data cleaning and preparatio
 The data we are using is a combination of three sets of plays, one from each of three prominant playwrites of the day. 
 
 * For Shakespeare, we are using a [csv](https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays) of all of known Shakespearean plays availabe up on Kaggle submitted by Liam Larsen. We will make a subset for the play "Much Ado About Nothing" from 1598/99.
-* For Thomas Middleton, we will be using his comedic play ["A Trick to Catch the Old One"](https://tech.org/~cleary/tcoo.html) released in 1608.
+* For Thomas Middleton, we will be using his comedic play ["A Chaste Maid in Cheapside"](https://tech.org/~cleary/chast.html) released in 1613.
 * For John Fletcher, we will be using his tragic comedy ["The Faithful Shepherdess"](https://www.luminarium.org/sevenlit/fletcher/fletchbib.htm) released in 1609.
 
 
 #### Features Used:
-* **author:** int64, author code (0=Shakespeare, 1=Middleton, 2=Fletcher)
+* **author:** int64, author code (0=Shakespeare, 1=Fletcher, 2=Middleton)
 * **text:** Object, line spoken
 
 ## Basic Walkthrough<a id='Walkthrough'></a>
@@ -58,10 +56,9 @@ The data we are using is a combination of three sets of plays, one from each of 
 * **Business Recommendations** - Implimentation and uses. 
 * **Going Further**: Relfections on how I would improve my process, adapt for use in other applications/other uses, etc.
 
- 
 ## Final Model<a id='final_model'></a>
 
-After running a few models mentioned above, I chose Multinomial Naive Bayes (MNB). 
+After running a few models mentioned above, I chose Multinomial Naive Bayes (MNB) based on it's overall accuracy and low bias for any individual author. 
 
 ## Business Recommendations <a id='busrec'></a>
 
@@ -104,6 +101,7 @@ Lastly, thank you for taking the time to read through this, and I hope it helped
 * [Here you will find my slideshow presentation](https://github.com/evamizer/to-be-or-not/blob/d4503af9bea298020600df9cf9446010ca99047d/to-be-or-not.pdf)
 
  ## Repository Structure:
+ *Please note that I have added some copies of images found in the presentation and/or notebook*
 
     ├── data
         └── chaste_maid_middleton.csv
@@ -111,11 +109,12 @@ Lastly, thank you for taking the time to read through this, and I hope it helped
         └── shepherdess_fletcher.csv
     ├── images
         └── emtest.jpg
+        └── fletcher-dist.jpg
         └── frequency.png
         └── gradio.png
-        └── invents.jpg
+        └── middleton-dist.jpg
         └── repository-shakes-social.jpg
-        └── tobeornot.jpg
+        └── shakes-dist.jpg
         └── whatdoththis.jpg
     ├── model
         └── nb_model.pkl
@@ -124,5 +123,5 @@ Lastly, thank you for taking the time to read through this, and I hope it helped
         └── word2vec_model.pkl
      ├── .gitignore
      ├── README.md
-     ├── to_be_or_not.pdf
-     └── to_be_or_not.ipynb
+     ├── to-be-or-not.ipynb
+     └── to-be-or-not.pdf
