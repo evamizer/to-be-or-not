@@ -108,6 +108,7 @@ Lastly, thank you for taking the time to read through this, and I hope it helped
         └── shakespeare_data.csv
         └── shepherdess_fletcher.csv
     ├── images
+        └── court.jpg
         └── emtest.jpg
         └── fletcher-dist.jpg
         └── frequency.png
@@ -115,6 +116,8 @@ Lastly, thank you for taking the time to read through this, and I hope it helped
         └── middleton-dist.jpg
         └── repository-shakes-social.jpg
         └── shakes-dist.jpg
+        └── shakes.jpg
+        └── sheep.jpg
         └── whatdoththis.jpg
     ├── model
         └── nb_model.pkl
